@@ -8,6 +8,7 @@
 
 ![Screen shot](https://github.com/Miravicson/pure-react-slackclone/blob/master/screenshot.png)
 
+## [Heroku Deployment]( https://slackclonev.herokuapp.com/).
 
 ## Available Scripts
 
