@@ -54,4 +54,6 @@ Creates a production build
 Runs the production build of the application. It uses the npm package `serve`. `serve` runs the production build on port `5000` by default.
 
 
+## You can get your copy of *Pure React* by Dave Ceddia, [here](https://www.amazon.com/Pure-React-step-step-mastering-ebook/dp/B073V8HYRK) cheers guys 🎂😎.
 
+### Feel free to pull and modify the repository as you like.
