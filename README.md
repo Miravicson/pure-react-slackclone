@@ -4,9 +4,15 @@
 - This project is built without any form of icing or mixing on react. It is essentially, vanilla React 🍦
 
 
-## Screen Shot
+## Screen Shots
+
+### Screenshot from *Pure React*
+![Book Screen shot](https://github.com/Miravicson/pure-react-slackclone/blob/master/bookScreenShot.png)
+
+### Screenshot of implementation
 
 ![Screen shot](https://github.com/Miravicson/pure-react-slackclone/blob/master/screenshot.png)
+
 
 ## [Heroku Deployment]( https://slackclonev.herokuapp.com/).
 
