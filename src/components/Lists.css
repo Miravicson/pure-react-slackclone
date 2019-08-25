@@ -38,3 +38,7 @@
 .ChannelList-item.selected>button {
   color: #222;
 }
+
+.ChannelList-item.hasMessage>button {
+  font-weight: bold;
+}

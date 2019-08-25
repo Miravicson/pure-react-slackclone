@@ -23,6 +23,12 @@ class App extends Component {
     }, 0)
   }
 
+  // getChannelsWithNewMessage = () => {
+  //   return Object.keys(messages).reduce((channelsWithMessages, key) => {
+  //     return
+  //   }, [])
+  // }
+
   getSnapshotBeforeUpdate(prevProps, prevState) {
     if (
       this.countMessages(this.state.messages) >

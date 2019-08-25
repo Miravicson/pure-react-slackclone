@@ -11,7 +11,9 @@ const Lists = ({ items, title, onListClick, activeLink }) => {
           <li
             key={item.name}
             className={`ChannelList-item ${item.name === activeLink &&
-              "selected"}`}
+              "selected"} ${(item.name === "general" ||
+              item.name === "react") &&
+              "hasMessage"}`}
           >
             <button onClick={() => onListClick(item.name)}>{item.link}</button>
           </li>
@@ -25,7 +27,8 @@ Lists.propTypes = {
   items: PropTypes.array.isRequired,
   title: PropTypes.string.isRequired,
   onListClick: PropTypes.func.isRequired,
-  activeLink: PropTypes.string.isRequired
+  activeLink: PropTypes.string.isRequired,
+  hasMessage: PropTypes.bool.isRequired
 }
 
 export default Lists
