@@ -1,0 +1,40 @@
+.ChannelList {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ChannelList-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.ChannelList-item {
+  display: block;
+
+}
+
+
+
+.ChannelList-item>button {
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  background-color: transparent;
+  border: none;
+  font-weight: regular;
+  color: white;
+}
+
+.ChannelList-item.selected {
+  background-color: #fa0;
+  border-radius: 7px 0 0 7px;
+}
+
+.ChannelList-item.selected>button {
+  color: #222;
+}

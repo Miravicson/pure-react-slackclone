@@ -1,0 +1,36 @@
+.MessageItem {
+  margin: 0.75em 0;
+  display: flex;
+  font-size: 1.8rem;
+}
+
+.MessageItem-image {
+  border: 2px solid #ccc;
+  border-radius: 0.312rem;
+  margin-right: 0.625em;
+  height: 75px;
+  width: 75px;
+}
+
+.MessageItem-details {
+  padding: 0.312rem 0;
+  line-height: 1.2;
+}
+
+.MessageItem-text {
+  display: block;
+  margin-top: 0.625rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.MessageItem-timestamp {
+  color: #b3b3b3;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+.MessageItem-name {
+  font-weight: bolder;
+}

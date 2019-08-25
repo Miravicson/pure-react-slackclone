@@ -1,0 +1,22 @@
+.TextInput {
+  border-top: 2px solid #ccc;
+  padding: 1em;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.TextInput>input {
+  border: 3px solid #ccc;
+  padding: 0.625em 1em;
+  border-radius: 7px;
+  width: 100%;
+  font-size: 1.6rem;
+  line-height: 0.8;
+  letter-spacing: 0.01rem;
+}
+
+.TextInput>input::placeholder {
+  font-family: 'Montserrat',
+    sans-serif;
+}
