@@ -6,7 +6,7 @@
 
 ## Screen Shot
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Screen shot](https://github.com/Miravicson/pure-react-slackclone/blob/master/screenshot.png)
 
 
 
